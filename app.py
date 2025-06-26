@@ -86,7 +86,7 @@ tokens_per_collection = total_vesting_tokens / total_collections
 total_nfts = sum(collections.values())
 
 unlock_start_date = datetime(2026, 2, 6)
-cliff_duration = 365
+cliff_duration = 0
 unlock_percentage = 1 / 6
 linear_vesting_months = 24
 
