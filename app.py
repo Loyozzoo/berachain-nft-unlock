@@ -137,14 +137,24 @@ st.markdown(f"""
 
 st.markdown("---")
 
-col1, col2 = st.columns(2)
+col1, col2, col3 = st.columns(3)
 with col1:
     st.subheader("💰 Donate - EVM")
     st.code("0x33AcB469Aefc9e63825305145dc1a87097347dc4", language="text")
 with col2:
     st.subheader("💰 Donate - Solana")
     st.code("BrMJxk2cZYoHf55cMvc7oHHuaqkKBNGjSLjZNZpYwsV3", language="text")
-
+with col3:
+    st.markdown("""
+<div style="text-align: center; margin: 20px 0;">
+    <a href="https://x.com/Burnout_totally" target="_blank" style="text-decoration: none;">
+        <div style="display: inline-flex; align-items: center; background: linear-gradient(90deg, #1DA1F2, #1a91da); padding: 12px 24px; border-radius: 25px; color: white; font-weight: bold; box-shadow: 0 4px 15px rgba(29, 161, 242, 0.3); transition: transform 0.3s ease;">
+            <span style="font-size: 18px; margin-right: 8px;">🐦</span>
+            Follow me on X.com
+        </div>
+    </a>
+</div>
+""", unsafe_allow_html=True)
 
 
 st.markdown("---")
