@@ -150,7 +150,7 @@ with col3:
     <a href="https://x.com/Burnout_totally" target="_blank" style="text-decoration: none;">
         <div style="display: inline-flex; align-items: center; background: black; padding: 12px 24px; border-radius: 25px; color: white; font-weight: bold; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); transition: transform 0.3s ease;">
             <span style="font-size: 18px; margin-right: 8px;">🐦</span>
-            Follow us on Twitter
+            Follow me on X.com
         </div>
     </a>
 </div>
