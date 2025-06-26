@@ -261,7 +261,8 @@ for i in range(0, len(collection_data), 2):
 st.header("📈 Vesting Timeline")
 
 dates = []
-current_date_iter = datetime.now()  
+start_date = unlock_start_date - timedelta(days=90)  # Start 3 months before
+current_date_iter = start_date
 end_date = unlock_start_date + timedelta(days=cliff_duration + linear_vesting_months * 30)
 
 while current_date_iter <= end_date:
