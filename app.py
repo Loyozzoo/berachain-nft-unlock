@@ -148,9 +148,9 @@ with col3:
     st.markdown("""
 <div style="text-align: center; margin: 20px 0;">
     <a href="https://x.com/Burnout_totally" target="_blank" style="text-decoration: none;">
-        <div style="display: inline-flex; align-items: center; background: linear-gradient(90deg, #1DA1F2, #1a91da); padding: 12px 24px; border-radius: 25px; color: white; font-weight: bold; box-shadow: 0 4px 15px rgba(29, 161, 242, 0.3); transition: transform 0.3s ease;">
+        <div style="display: inline-flex; align-items: center; background: black; padding: 12px 24px; border-radius: 25px; color: white; font-weight: bold; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); transition: transform 0.3s ease;">
             <span style="font-size: 18px; margin-right: 8px;">🐦</span>
-            Follow me on X.com
+            Follow us on Twitter
         </div>
     </a>
 </div>
