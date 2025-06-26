@@ -72,8 +72,8 @@ nft_prices_bera = {
 }
 
 nft_images = {
-    "Bond Bears": "images/1.png",
-    "Bong Bears": "images/2.png",
+    "Bond Bears": "images/2.png",
+    "Bong Bears": "images/1.png",
     "Boo Bears": "images/3.png",
     "Baby Bears": "images/4.png",
     "Band Bears": "images/5.png",
