@@ -113,7 +113,7 @@ def get_next_milestone():
     vesting_end = cliff_end + timedelta(days=linear_vesting_months * 30)
 
     if now < unlock_start_date:
-        return "Unlock Start", unlock_start_date
+        return "Vesting Unlock Starts", unlock_start_date
     elif now < cliff_end:
         return "First Token Unlock (1/6)", cliff_end
     elif now < vesting_end:
@@ -161,7 +161,9 @@ st.markdown("---")
 
 
 def calculate_vested_amount(days_since_unlock, total_tokens):
-    if days_since_unlock < cliff_duration:
+    if days_since_unlock < 0:
+        return 0
+    elif days_since_unlock < cliff_duration:
         return 0
     elif days_since_unlock == cliff_duration:
         return total_tokens * unlock_percentage
@@ -259,7 +261,7 @@ for i in range(0, len(collection_data), 2):
 st.header("📈 Vesting Timeline")
 
 dates = []
-current_date_iter = datetime.now()
+current_date_iter = datetime.now()  
 end_date = unlock_start_date + timedelta(days=cliff_duration + linear_vesting_months * 30)
 
 while current_date_iter <= end_date:
