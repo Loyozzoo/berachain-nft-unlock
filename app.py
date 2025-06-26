@@ -259,7 +259,7 @@ for i in range(0, len(collection_data), 2):
 st.header("📈 Vesting Timeline")
 
 dates = []
-current_date_iter = unlock_start_date
+current_date_iter = datetime.now()
 end_date = unlock_start_date + timedelta(days=cliff_duration + linear_vesting_months * 30)
 
 while current_date_iter <= end_date:
