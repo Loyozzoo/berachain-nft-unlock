@@ -261,12 +261,12 @@ for i in range(0, len(collection_data), 2):
 st.header("📈 Vesting Timeline")
 
 dates = []
-current_date_iter = datetime.now()  # Start from current date
+current_date_iter = datetime.now()
 end_date = unlock_start_date + timedelta(days=linear_vesting_months * 30)
 
 while current_date_iter <= end_date:
     dates.append(current_date_iter)
-    current_date_iter += timedelta(days=30)
+    current_date_iter += timedelta(days=1)  
 
 timeline_data = []
 for collection_name, supply in collections.items():
