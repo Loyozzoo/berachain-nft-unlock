@@ -7,6 +7,7 @@ import numpy as np
 import time
 
 st.set_page_config(page_title="NFT Vesting Calculator", page_icon="🐻", layout="wide")
+
 st.markdown("""
 <style>
     .stAppHeader {
@@ -24,15 +25,21 @@ st.markdown("""
     .stActionButton {
         display: none;
     }
+    .main .block-container {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-top: 0rem;
+    }
+    .stApp > div:first-child {
+        margin-top: -80px;
+    }
+    div[data-testid="stAppViewContainer"] > .main {
+        padding-top: 0rem;
+    }
+    section[data-testid="stSidebar"] {
+        top: 0px;
+    }
 </style>
-""", unsafe_allow_html=True)
-
-st.markdown("""
-<script>
-setTimeout(function(){
-    window.location.reload(1);
-}, 300000);
-</script>
 """, unsafe_allow_html=True)
 
 
