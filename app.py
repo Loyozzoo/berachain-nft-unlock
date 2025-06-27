@@ -243,7 +243,7 @@ for i in range(0, len(collection_data), 2):
                         <p style="color: white; margin: 5px 0 0 0; font-size: 1.4em; font-weight: bold;">{collection["current_price_bera"]:,} BERA</p>
                     </div>
                     <div style="background: rgba(34, 139, 34, 0.2); padding: 15px; border-radius: 10px; margin-bottom: 15px; border: 2px solid #228B22;">
-                        <p style="color: #90EE90; margin: 0; font-size: 0.9em; font-weight: bold;">💰 Buy Now Deal</p>
+                        <p style="color: #90EE90; margin: 0; font-size: 0.9em; font-weight: bold;">💰</p>
                         <p style="color: #FFFFFF; margin: 5px 0 0 0; font-size: 1.1em; font-weight: bold;">Buy for {collection["current_price_bera"]:,} BERA</p>
                         <p style="color: #90EE90; margin: 5px 0 0 0; font-size: 1.2em; font-weight: bold;">→ Get total of {collection["total_tokens_per_nft"]:,.0f} tokens</p>
                         <p style="color: white; margin: 5px 0 0 0; font-size: 0.9em; opacity: 0.9;">by {collection["vesting_end_date"].strftime('%b %d, %Y')}</p>
