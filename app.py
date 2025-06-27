@@ -66,8 +66,8 @@ nft_prices_bera = {
     "Bond Bears": 159320,
     "Bong Bears": 45775,
     "Boo Bears": 57788,
-    "Baby Bears": 38191,
-    "Band Bears": 19626,
+    "Baby Bears": 849,
+    "Band Bears": 489,
     "Bit Bears": 319
 }
 
